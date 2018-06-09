@@ -11,7 +11,7 @@
 </style>
 <body>
 <canvas width="500" height="500"></canvas>
-<button>呀屎啦你</button>
+<button>画布</button>
 </body>
 <script>
     window.onload=function () {
@@ -40,7 +40,7 @@
             let dele=document.querySelector('button')
             dele.onclick=function () {
                 if (arr.length<1){
-                    alert("呀屎啦你,好好听课")
+                    alert("OK")
                     return
                 }
                 paint.clearRect(0, 0, canvas.width, canvas.height)
